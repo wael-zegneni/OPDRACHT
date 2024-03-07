@@ -1,0 +1,16 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+
+@import 'base/common';
+@import 'base/fonts';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'sections/hero';
+@import 'sections/services';
+@import 'sections/approach';
+@import 'sections/stories';
+@import 'sections/work';
+@import 'sections/news';
+@import 'sections/questions';
