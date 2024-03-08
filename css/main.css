@@ -102,3 +102,31 @@ body {
   font-weight: 800;
   font-style: italic;
   font-display: swap; }
+
+.header {
+  background-color: #e0e0e0; }
+  .header .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .header .nav__link {
+      font-size: 1em;
+      font-style: italic;
+      font-weight: 700;
+      text-decoration: none;
+      color: black;
+      margin: 0 1rem; }
+      .header .nav__link:hover {
+        color: #67257B; }
+    .header .nav__loop {
+      margin: 0 1rem;
+      margin-right: 1.5rem; }
+    .header .nav__menu {
+      background-color: #67257B;
+      font-size: 25px;
+      padding: 1rem 2.25rem;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px; }
