@@ -3,102 +3,102 @@
   padding: 0; }
 
 body {
-  font-family: "rubik", Arial, sans-serif; }
+  font-family: "rubik"; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-Regular.woff2") format("woff2"), url("../../assets/fonts/Rubik-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-Regular.woff2") format("woff2"), url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-Italic.woff2") format("woff2"), url("../../assets/fonts/Rubik-Italic.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-Italic.woff2") format("woff2"), url("../assets/fonts/Rubik-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-Bold.woff2") format("woff2"), url("../../assets/fonts/Rubik-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-Bold.woff2") format("woff2"), url("../assets/fonts/Rubik-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-BoldItalic.woff2") format("woff2"), url("../../assets/fonts/Rubik-BoldItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-BoldItalic.woff2") format("woff2"), url("../assets/fonts/Rubik-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-Black.woff2") format("woff2"), url("../../assets/fonts/Rubik-Black.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-Black.woff2") format("woff2"), url("../assets/fonts/Rubik-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-BlackItalic.woff2") format("woff2"), url("../../assets/fonts/Rubik-BlackItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-BlackItalic.woff2") format("woff2"), url("../assets/fonts/Rubik-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-Light.woff2") format("woff2"), url("../../assets/fonts/Rubik-Light.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-Light.woff2") format("woff2"), url("../assets/fonts/Rubik-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-LightItalic.woff2") format("woff2"), url("../../assets/fonts/Rubik-LightItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-LightItalic.woff2") format("woff2"), url("../assets/fonts/Rubik-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-Medium.woff2") format("woff2"), url("../../assets/fonts/Rubik-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-Medium.woff2") format("woff2"), url("../assets/fonts/Rubik-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-MediumItalic.woff2") format("woff2"), url("../../assets/fonts/Rubik-MediumItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-MediumItalic.woff2") format("woff2"), url("../assets/fonts/Rubik-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-SemiBold.woff2") format("woff2"), url("../../assets/fonts/Rubik-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-SemiBold.woff2") format("woff2"), url("../assets/fonts/Rubik-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-SemiBoldItalic.woff2") format("woff2"), url("../../assets/fonts/Rubik-SemiBoldItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-SemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/Rubik-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-ExtraBold.woff2") format("woff2"), url("../../assets/fonts/Rubik-ExtraBold.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-ExtraBold.woff2") format("woff2"), url("../assets/fonts/Rubik-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Rubik';
-  src: url("../../assets/fonts/Rubik-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/fonts/Rubik-ExtraBoldItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Rubik-ExtraBoldItalic.woff2") format("woff2"), url("../assets/fonts/Rubik-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
   font-display: swap; }
@@ -112,7 +112,7 @@ body {
     .header .nav__link {
       font-size: 1em;
       font-style: italic;
-      font-weight: 700;
+      font-weight: 600;
       text-decoration: none;
       color: black;
       margin: 0 1rem; }
@@ -121,6 +121,8 @@ body {
     .header .nav__loop {
       margin: 0 1rem;
       margin-right: 1.5rem; }
+      .header .nav__loop:hover {
+        cursor: pointer; }
     .header .nav__menu {
       background-color: #67257B;
       font-size: 25px;
@@ -129,48 +131,15 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px; }
+      gap: 10px;
+      font-style: italic; }
 
 .hero {
   background-color: #00AE74;
   display: flex;
   height: max-content; }
-  .hero__content {
-    width: 52%;
-    padding: 3.125em 5em;
-    position: relative; }
-  .hero__logo {
-    width: 13.125em; }
-  .hero__title {
-    font-size: 3.125em;
-    color: #67257B;
-    font-weight: 900;
-    margin-top: 5rem;
-    margin-bottom: 3.3rem; }
-  .hero__description {
-    font-size: 1.875em;
-    color: #FFFFFF;
-    line-height: 3rem;
-    padding-right: 4rem;
-    padding-bottom: 5rem;
-    width: 80%; }
-  .hero__help {
-    width: max-content;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box; }
-  .hero__subtitle {
-    font-size: 1.875em;
-    color: #67257B;
-    font-weight: 900;
-    margin-bottom: 2.5rem; }
-  .hero__options {
-    list-style: none; }
   .hero__option {
     display: flex;
-    align-items: center;
     margin-bottom: 1.25em; }
   .hero__link {
     text-decoration: none;
@@ -180,7 +149,8 @@ body {
     padding-left: 1.25em;
     color: #FFFFFF;
     font-size: 1.25em;
-    font-style: italic; }
+    font-style: italic;
+    font-weight: 500; }
     .hero__link::after {
       content: "";
       position: absolute;
@@ -191,14 +161,254 @@ body {
       background-color: #67257B;
       transition: 0.3s ease-in-out;
       transform: scaleX(0); }
-    .hero__link:hover::after {
-      transform: scaleX(1); }
     .hero__link:hover {
       cursor: pointer;
       color: #67257B; }
-    .hero__link:hover {
-      cursor: pointer;
-      color: #67257B; }
+      .hero__link:hover::after {
+        transform: scaleX(1); }
+    .hero__link--pink {
+      width: 75%; }
+      .hero__link--pink:hover {
+        color: #CA138B; }
+        .hero__link--pink:hover::after {
+          transform: scaleX(0); }
+      .hero__link--pink::after {
+        background-color: #CA138B; }
+  .hero__content {
+    width: 52%;
+    padding: 3.125em 5em;
+    position: relative; }
+  .hero__logo {
+    width: 13.125rem; }
+  .hero__title {
+    font-size: 3.125em;
+    color: #67257B;
+    font-weight: 700;
+    margin-top: 5rem;
+    margin-bottom: 3.3rem; }
+  .hero__description {
+    font-size: 1.875em;
+    color: #FFFFFF;
+    line-height: 3rem;
+    padding-right: 4rem;
+    padding-bottom: 5rem;
+    width: 80%;
+    font-weight: 400; }
+  .hero__help {
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box; }
+  .hero__subtitle {
+    font-size: 1.875em;
+    color: #67257B;
+    font-weight: 700;
+    margin-bottom: 2.5rem; }
+  .hero__options {
+    list-style: none; }
   .hero__image {
     width: 48%;
     border-radius: 5px; }
+  @media (max-width: 1377px) {
+    .hero__leaves {
+      display: none; } }
+
+.services {
+  background-color: #67257B;
+  padding-top: 5.625em; }
+  .services__option {
+    display: flex;
+    margin-bottom: 1.25em; }
+  .services__link {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    text-align: left;
+    padding-left: 1.25em;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: 500; }
+    .services__link::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      height: 3px;
+      width: 90%;
+      left: 1.3em;
+      background-color: #67257B;
+      transition: 0.3s ease-in-out;
+      transform: scaleX(0); }
+    .services__link:hover {
+      cursor: pointer;
+      color: #67257B; }
+      .services__link:hover::after {
+        transform: scaleX(1); }
+    .services__link--pink {
+      width: 75%; }
+      .services__link--pink:hover {
+        color: #CA138B; }
+        .services__link--pink:hover::after {
+          transform: scaleX(0); }
+      .services__link--pink::after {
+        background-color: #CA138B; }
+  .services__title {
+    color: #FFFFFF;
+    font-size: 3.125em;
+    font-weight: 700;
+    margin-left: 5rem;
+    margin-bottom: 5rem; }
+  .services__categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 2.6rem; }
+    @media (max-width: 768px) {
+      .services__categories {
+        flex-direction: column;
+        align-items: center; } }
+  .services__category {
+    width: 28%;
+    min-width: 326px;
+    border-radius: 2px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; }
+    @media (max-width: 768px) {
+      .services__category {
+        width: 90%;
+        min-width: 0px;
+        margin: 2rem 3rem; } }
+    .services__category-list {
+      list-style: none; }
+    .services__category-title {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.875em;
+      color: #FFFFFF; }
+      .services__category-title-main {
+        font-weight: 700; }
+      .services__category-title-sub {
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 2.5rem; }
+    .services__category-image {
+      margin-bottom: 1.56rem;
+      width: 100%;
+      border-radius: 0;
+      border-radius: 5px; }
+    .services__category-description {
+      font-size: 1.25em;
+      color: #FFFFFF;
+      font-weight: 400;
+      min-height: 6rem;
+      width: 90%; }
+    .services__category-divider {
+      background-color: white;
+      outline: none;
+      border: none;
+      height: 1px;
+      margin-top: 3.125rem;
+      margin-bottom: 1.9rem; }
+
+.approach {
+  background-color: #00A9C7;
+  padding: 6rem 11.81rem;
+  display: flex;
+  gap: 2.5rem; }
+  .approach__image-container {
+    flex: 1;
+    position: relative;
+    height: max-content; }
+  .approach__image {
+    width: 93%;
+    min-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    float: right; }
+    .approach__image-lines {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 93%; }
+      @media (max-width: 1377px) {
+        .approach__image-lines {
+          display: none; } }
+  .approach__content {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.75rem; }
+  .approach__title {
+    color: #67257B;
+    font-size: 3.125em;
+    font-weight: 700;
+    position: relative;
+    left: -6.8rem; }
+  .approach__text {
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-top: 3.75rem;
+    margin-bottom: 5.31rem;
+    line-height: 30px;
+    width: 94%; }
+  .approach__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem; }
+  .approach__dropdown {
+    position: relative; }
+    .approach__dropdown-select {
+      background-color: white;
+      padding-top: 1.125rem;
+      padding-bottom: 1.125rem;
+      padding-right: 7.375rem;
+      appearance: none;
+      outline: none;
+      border-radius: 48px;
+      padding-left: 1.875rem;
+      font-size: 1.25em;
+      font-weight: 500;
+      font-style: italic;
+      color: #67257B; }
+    .approach__dropdown-icon {
+      position: absolute;
+      right: 22px;
+      top: 22px;
+      transform: rotateY("30deg"); }
+  .approach__map-trigger {
+    display: flex;
+    align-items: center; }
+    .approach__map-trigger-link {
+      text-decoration: none;
+      position: relative;
+      border: none;
+      text-align: left;
+      padding-left: 1.25em;
+      color: #FFFFFF;
+      font-size: 1.25em;
+      font-style: italic;
+      font-weight: 500; }
+      .approach__map-trigger-link::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        height: 3px;
+        width: 90%;
+        left: 1.3em;
+        background-color: #67257B;
+        transition: 0.3s ease-in-out;
+        transform: scaleX(0); }
+      .approach__map-trigger-link:hover {
+        cursor: pointer;
+        color: #67257B; }
+        .approach__map-trigger-link:hover::after {
+          transform: scaleX(1); }

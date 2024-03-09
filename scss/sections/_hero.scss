@@ -2,6 +2,7 @@
     background-color: $bg-green;
     display: flex;
     height: max-content;
+    @include option-link-styles;
 
     &__content {
         width: 52%;
@@ -10,13 +11,13 @@
     }
 
     &__logo {
-        width: 13.125em;
+        width: 13.125rem;
     }
 
     &__title {
         font-size: $font-size-50;
         color: $text-secondary;  
-        font-weight: 900;
+        font-weight: $bold;
         margin-top: 5rem;
         margin-bottom: 3.3rem;
     }
@@ -28,6 +29,7 @@
         padding-right: 4rem;
         padding-bottom: 5rem;
         width: 80%;
+        font-weight: $regular;
     }
 
     &__help {
@@ -43,7 +45,7 @@
     &__subtitle {
         font-size: $font-size-30;
         color: $text-secondary;
-        font-weight: 900;
+        font-weight: $bold;
         margin-bottom: 2.5rem;
     }
 
@@ -51,53 +53,15 @@
         list-style: none;
     }
     
-    &__option {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1.25em;
-    }
-
-    &__link {
-        text-decoration: none;
-        position: relative;
-        border: none;
-        text-align: left;
-        padding-left: 1.25em;
-        color: $text-primary;
-        font-size: $font-size-20;
-        font-style: italic;
-
-        &::after {
-            content: "";
-            position: absolute;
-            bottom: -5px;
-            height: 3px;
-            width: 90%;
-            left: 1.3em;
-            background-color: $text-secondary;
-            transition: 0.3s ease-in-out;
-            transform: scaleX(0);
-        }
-
-        &:hover::after {
-            transform: scaleX(1);
-        }
-
-        &:hover {
-            cursor: pointer;
-            color: $text-secondary;
-        }
-
-        &:hover {
-            cursor: pointer;
-            color: $text-secondary;
-        }
-    }
 
     &__image {
         width: 48%;
         border-radius: 5px;  
     }
 
-
+    &__leaves {
+        @media (max-width: 1377px) {
+            display: none;
+        }
+    }
 }

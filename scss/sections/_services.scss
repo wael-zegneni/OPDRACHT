@@ -1,0 +1,88 @@
+.services {
+    background-color: $bg-purple;
+    padding-top: 5.625em;
+    @include option-link-styles;
+
+    &__title {
+        color: $text-primary;
+        font-size: $font-size-50;
+        font-weight: $bold;
+        margin-left: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    &__categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        gap: 2.6rem;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+          }
+    }
+
+    &__category {
+        width: 28%;
+        min-width: 326px;
+        border-radius: 2px; 
+        margin-bottom: 2rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    
+        @media (max-width: 768px) {
+          width: 90%; 
+          min-width: 0px;
+          margin: 2rem 3rem;
+        }
+
+        &-list {
+            list-style: none;
+        }
+
+        &-title {
+            display: flex;
+            flex-direction: column;
+            font-size: $font-size-30;
+            color: $text-primary;
+
+            &-main {
+                font-weight: $bold;
+            }
+    
+            &-sub {
+                font-weight: $regular;
+                font-style: italic;
+                margin-bottom: 2.5rem;
+            }
+        }
+
+        &-image {
+            margin-bottom: 1.56rem;
+            width: 100%;
+            border-radius: 0;
+            border-radius: 5px;
+        }
+
+        &-description {
+            font-size: $font-size-20;
+            color: $text-primary;
+            font-weight: $regular;
+            min-height: 6rem;
+            width: 90%;
+        }
+
+        &-divider {
+            background-color:white;
+            outline: none;
+            border: none;
+            height: 1px;
+            margin-top: 3.125rem;
+            margin-bottom: 1.9rem;
+        }
+      }
+}

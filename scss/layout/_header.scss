@@ -10,7 +10,7 @@
         &__link {
             font-size: $font-size-16;
             font-style: italic;
-            font-weight: 700;
+            font-weight: 600;
             text-decoration: none;
             color: black;
             margin: 0 1rem;
@@ -23,6 +23,10 @@
         &__loop {
             margin: 0 1rem;
             margin-right: 1.5rem;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         &__menu {
@@ -34,6 +38,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 10px;
+            font-style: italic;
         }
     }
 }
