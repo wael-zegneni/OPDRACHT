@@ -1,0 +1,103 @@
+.hero {
+    background-color: $bg-green;
+    display: flex;
+    height: max-content;
+
+    &__content {
+        width: 52%;
+        padding: 3.125em 5em;
+        position: relative;
+    }
+
+    &__logo {
+        width: 13.125em;
+    }
+
+    &__title {
+        font-size: $font-size-50;
+        color: $text-secondary;  
+        font-weight: 900;
+        margin-top: 5rem;
+        margin-bottom: 3.3rem;
+    }
+
+    &__description {
+        font-size: $font-size-30;
+        color: $text-primary;
+        line-height: 3rem;
+        padding-right: 4rem;
+        padding-bottom: 5rem;
+        width: 80%;
+    }
+
+    &__help {
+        width: max-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box; 
+      }
+      
+
+    &__subtitle {
+        font-size: $font-size-30;
+        color: $text-secondary;
+        font-weight: 900;
+        margin-bottom: 2.5rem;
+    }
+
+    &__options {
+        list-style: none;
+    }
+    
+    &__option {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.25em;
+    }
+
+    &__link {
+        text-decoration: none;
+        position: relative;
+        border: none;
+        text-align: left;
+        padding-left: 1.25em;
+        color: $text-primary;
+        font-size: $font-size-20;
+        font-style: italic;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            height: 3px;
+            width: 90%;
+            left: 1.3em;
+            background-color: $text-secondary;
+            transition: 0.3s ease-in-out;
+            transform: scaleX(0);
+        }
+
+        &:hover::after {
+            transform: scaleX(1);
+        }
+
+        &:hover {
+            cursor: pointer;
+            color: $text-secondary;
+        }
+
+        &:hover {
+            cursor: pointer;
+            color: $text-secondary;
+        }
+    }
+
+    &__image {
+        width: 48%;
+        border-radius: 5px;  
+    }
+
+
+}
