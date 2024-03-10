@@ -63,6 +63,11 @@
         padding-left: 1.2rem;
         color: $text-primary;
         font-weight: $regular;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          color: $text-secondary;
+        }
     }
   }
 }
