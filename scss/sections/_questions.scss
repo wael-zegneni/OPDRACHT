@@ -1,0 +1,69 @@
+.questions {
+  background-color: $bg-green;
+  padding: 5rem;
+
+  @media (max-width: 768px) {
+    padding: 3rem;
+  }
+
+  &__title {
+    font-size: $font-size-30;
+    color: $text-secondary;
+    font-weight: $bold;
+  }
+
+  &__content {
+    display: flex;
+    gap: 3rem;
+    width: 83%;
+    background-color: yellow;
+    margin: 0 auto;
+    justify-content: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 2.625rem;
+
+    @media (max-width: 768px) {
+      justify-content: flex-start;
+    }
+  }
+
+
+
+  &__card {
+    width: max-content;
+    background-color: brown;
+    margin-bottom: 2.5rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 2rem;
+    }
+
+    &-title {
+        display: flex;
+        align-items: center;
+
+        &-main {
+            font-weight: $bold;
+            font-size: $font-size-20;
+            color: $text-primary;
+            margin-left: 0.625rem;
+        }
+    }
+
+    &-items {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    &-item {
+        text-decoration: none;
+        font-style: italic;
+        line-height: 1.625rem;
+        display: block;
+        padding-left: 1.2rem;
+        color: $text-primary;
+        font-weight: $regular;
+    }
+  }
+}

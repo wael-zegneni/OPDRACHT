@@ -1,0 +1,125 @@
+.news {
+  background-color: $bg-green;
+  padding: 5rem;
+
+  @media (max-width: 768px) {
+    padding: 3rem;
+  }
+
+  &__title {
+    font-size: $font-size-30;
+    color: $text-secondary;
+    font-weight: $bold;
+  }
+
+  &__content {
+    display: flex;
+    gap: 2.5rem;
+    width: 83%;
+    background-color: yellow;
+    margin: 0 auto;
+    justify-content: baseline;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    width: 62.07%;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3.3rem;
+    background-color: pink;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+    }
+  }
+
+  &__subscribe-wrapper {
+    width: 37.93%;
+    background-color: yellow;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  &__subscribe {
+    background-color: $bg-purple;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3.125rem 2.5rem;
+    box-sizing: border-box;
+    min-width: 401px;
+
+    &-title {
+      color: $text-primary;
+      font-family: $font-size-30;
+      font-weight: $medium;
+      font-style: italic;
+    }
+
+    &-text {
+      color: $text-primary;
+      font-weight: $regular;
+      line-height: 1.85rem;
+      font-size: $font-size-20;
+      margin-top: 1.56rem;
+      margin-bottom: 1.875rem;
+    }
+  }
+
+  @include card-style("news");
+
+  // To override to mixin
+  .news &__card {
+    width: 10%;
+    min-width: 178px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 5rem;
+      width: 80%;
+    }
+  }
+
+  .news &__card-title {
+    font-weight: $bold;
+    font-size: $font-size-16;
+  }
+
+  &__dropdown {
+    position: relative;
+
+    &-select {
+      background-color: white;
+      padding-top: 1.125rem;
+      padding-bottom: 1.125rem;
+      appearance: none;
+      outline: none;
+      border-radius: 15px;
+      font-size: $font-size-20;
+      font-weight: $medium;
+      font-style: italic;
+      color: $text-secondary;
+      width: 100%;
+      padding-left: 15px;
+      color: black;
+      box-sizing: border-box;
+    }
+
+    &-icon {
+      position: absolute;
+      right: 20px;
+      top: 22px;
+    }
+  }
+}

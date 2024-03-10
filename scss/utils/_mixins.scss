@@ -60,3 +60,59 @@
         }
     }
 }
+
+@mixin card-style($prefix) {
+    .#{$prefix}__card {
+        width: 30%;
+        min-width: 250px;
+        
+        &-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        &-date {
+            font-size: $font-size-16;
+            font-style: italic;
+            margin-top: 1.25rem;
+            margin-bottom: 0.625rem;
+            color: $text-primary;
+        }
+
+        &-title {
+            line-height: 1.875rem;
+            font-weight: $semibold;
+            color: $text-secondary;
+            min-height: 3.75rem;
+        }
+
+        &-description {
+            line-height: 1.625rem;
+            color: $text-primary;
+            font-size: $font-size-16;
+            min-height: 8.125rem;
+            margin-bottom: 1.3125rem;
+        }
+
+        &-profile {
+            display: flex;
+            align-items: center;
+            
+            &-img {
+                width: 2.56rem;
+                height: auto;
+            }
+    
+            &-name {
+                font-size: $font-size-16;
+                color: white;
+                margin-left: 1.25rem;
+                
+                &--family-name {
+                    font-style: italic;
+                    font-weight: $medium;
+                }
+            }
+        }
+    }
+}
