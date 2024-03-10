@@ -4,7 +4,6 @@
   display: flex;
   gap: 2.5rem;
 
-  
   @media (max-width: 1024px) {
     padding-left: 1.2rem;
     padding: 5.6rem 0.2rem;
@@ -67,7 +66,7 @@
 
     @media (max-width: 768px) {
       left: 0;
-  }
+    }
   }
 
   &__text {
@@ -93,12 +92,12 @@
     @media (max-width: 768px) {
       flex-direction: column;
       gap: 2rem;
-  }
+    }
 
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    gap: 2rem;
-}
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
   }
 
   &__dropdown {
@@ -126,20 +125,16 @@
       @media (max-width: 1024px) {
         right: 20px;
         top: 24px;
-    }
+      }
 
-    @media (max-width: 768px) {
-      right: 20px;
-      top: 19px;
-  }
+      @media (max-width: 768px) {
+        right: 20px;
+        top: 19px;
+      }
 
       @media (max-width: 321px) {
         top: 14px;
-    }
-
-
-  
-
+      }
     }
   }
 

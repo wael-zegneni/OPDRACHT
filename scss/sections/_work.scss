@@ -21,6 +21,11 @@
     padding: 11rem 0;
     margin-left: 6.5rem;
 
+    animation:fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 500px;
+    opacity: 0.1;
+
     @media (max-width: 768px) {
       display: none;
     }
@@ -128,7 +133,6 @@
 
     @media (max-width: 768px) {
       padding: 6.875rem 1.2rem;
-
     }
   }
 
@@ -140,7 +144,6 @@
     left: -6.8rem;
     @media (max-width: 768px) {
       left: 0;
-
     }
   }
 
@@ -162,4 +165,8 @@
       color: black;
     }
   }
+}
+
+@keyframes fade-in {
+  to {opacity:1}
 }

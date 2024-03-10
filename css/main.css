@@ -416,8 +416,9 @@ body {
       font-size: 1.25rem;
       color: #FFFFFF;
       font-weight: 400;
-      min-height: 6rem;
-      width: 90%; }
+      min-height: 7.5rem;
+      width: 90%;
+      line-height: 1.875rem; }
       @media (max-width: 768px) {
         .services__category-description {
           min-height: 4rem; } }
@@ -690,7 +691,11 @@ body {
     min-width: 250px; }
     @media (max-width: 768px) {
       .stories .stories__card {
-        margin: 2rem auto; } }
+        margin: 2rem auto;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: 300px 500px;
+        opacity: 0; } }
     .stories .stories__card-image {
       width: 100%;
       border-radius: 5px; }
@@ -788,7 +793,11 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding: 11rem 0;
-    margin-left: 6.5rem; }
+    margin-left: 6.5rem;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 200px 500px;
+    opacity: 0.1; }
     @media (max-width: 768px) {
       .work__image-gallery {
         display: none; } }
@@ -892,6 +901,10 @@ body {
   .work__link--pink {
     color: black; }
 
+@keyframes fade-in {
+  to {
+    opacity: 1; } }
+
 .news {
   background-color: #00AE74;
   padding: 5rem; }
@@ -971,7 +984,11 @@ body {
     min-width: 250px; }
     @media (max-width: 768px) {
       .news .news__card {
-        margin: 2rem auto; } }
+        margin: 2rem auto;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: 300px 500px;
+        opacity: 0; } }
     .news .news__card-image {
       width: 100%;
       border-radius: 5px; }
@@ -1020,7 +1037,11 @@ body {
     @media (max-width: 768px) {
       .news .news__card {
         margin-bottom: 0;
-        width: 80%; } }
+        width: 80%;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: 100px 500px;
+        opacity: 0; } }
   .news .news__card-title {
     font-weight: 700;
     font-size: 1rem; }
@@ -1048,6 +1069,10 @@ body {
       position: absolute;
       right: 20px;
       top: 22px; }
+
+@keyframes fade-in {
+  to {
+    opacity: 1; } }
 
 .questions {
   background-color: #00AE74;

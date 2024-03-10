@@ -107,6 +107,10 @@
     @media (max-width: 768px) {
       margin-bottom: 0;
       width: 80%;
+      animation:fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: 100px 500px;
+      opacity: 0;
     }
   }
 
@@ -147,4 +151,8 @@
       top: 22px;
     }
   }
+}
+
+@keyframes fade-in {
+  to {opacity:1}
 }
