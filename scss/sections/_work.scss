@@ -22,9 +22,7 @@
     margin-left: 6.5rem;
 
     @media (max-width: 768px) {
-      margin-left: 0;
-      width: 100%;
-      padding: 5rem 0;
+      display: none;
     }
 
     &--central {
@@ -38,12 +36,15 @@
       transition: transform 0.5s ease;
       filter: grayscale(100%);
 
-      @media (max-width: 768px) {
-        width: 280px;
-      }
-
       @media (max-width: 1024px) {
         width: 300px;
+        filter: grayscale(0);
+      }
+
+      @media (max-width: 768px) {
+        width: 100px;
+        height: auto;
+        margin-top: 20rem;
       }
     }
 
@@ -56,6 +57,10 @@
         position: absolute;
         transition: transform 0.5s ease;
         filter: grayscale(100%);
+
+        @media (max-width: 1024px) {
+          filter: grayscale(0);
+        }
 
         &:nth-child(1) {
           width: 198px;
@@ -120,6 +125,11 @@
     flex: 1;
     padding: 6.875rem 11.81rem;
     padding-left: 0rem;
+
+    @media (max-width: 768px) {
+      padding: 6.875rem 1.2rem;
+
+    }
   }
 
   &__title {
@@ -128,6 +138,10 @@
     font-weight: $bold;
     position: relative;
     left: -6.8rem;
+    @media (max-width: 768px) {
+      left: 0;
+
+    }
   }
 
   &__description {

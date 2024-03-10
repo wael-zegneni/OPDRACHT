@@ -2,16 +2,40 @@
     background-color: $bg-green;
     display: flex;
     height: max-content;
+
+    @media (max-width: 1376px) {
+        background-image: url("../assets/img/girl.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     @include option-link-styles;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
     &__content {
-        width: 52%;
-        padding: 3.125em 5em;
+        width: 55%;
+        padding: 3.125rem 4rem;
+        padding-right: 2rem;
+        padding-bottom: 0;
         position: relative;
+
+        @media (max-width: 1376px) {
+            width: 100%;
+            padding: 3.125em 1.5em;
+            position: relative;
+            backdrop-filter: blur(4px);
+        }
     }
 
     &__logo {
         width: 13.125rem;
+        @media (max-width: 768px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     &__title {
@@ -26,7 +50,6 @@
         font-size: $font-size-30;
         color: $text-primary;
         line-height: 3rem;
-        padding-right: 4rem;
         padding-bottom: 5rem;
         width: 80%;
         font-weight: $regular;
@@ -51,17 +74,32 @@
 
     &__options {
         list-style: none;
+        padding-bottom: 2em;
+    }
+
+    &__image-container {
+        width: 45%;
+        height: max-content;
+        position: relative;
+
+        @media (max-width: 1376px) {
+            display: none;
+        }
     }
     
 
     &__image {
-        width: 48%;
-        border-radius: 5px;  
-    }
+        width: 100%;
+        min-width: 350px;
+        border-radius: 5px;
+        display: block;
 
-    &__leaves {
-        @media (max-width: 1377px) {
-            display: none;
+        &-lines {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            left: 0;
+            bottom: 0;
         }
     }
 }

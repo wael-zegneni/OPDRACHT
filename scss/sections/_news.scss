@@ -2,9 +2,16 @@
   background-color: $bg-green;
   padding: 5rem;
 
-  @media (max-width: 768px) {
-    padding: 3rem;
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding-bottom: 2rem;
   }
+
+  @media (max-width: 768px) {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+
 
   &__title {
     font-size: $font-size-30;
@@ -16,11 +23,10 @@
     display: flex;
     gap: 2.5rem;
     width: 83%;
-    background-color: yellow;
     margin: 0 auto;
     justify-content: baseline;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       flex-direction: column;
       align-items: center;
     }
@@ -33,7 +39,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 3.3rem;
-    background-color: pink;
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      flex-direction: row;
+      width: 90%;
+    }
 
     @media (max-width: 768px) {
       flex-direction: column;
@@ -44,9 +54,8 @@
 
   &__subscribe-wrapper {
     width: 37.93%;
-    background-color: yellow;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       width: 100%;
     }
   }
@@ -60,6 +69,16 @@
     padding: 3.125rem 2.5rem;
     box-sizing: border-box;
     min-width: 401px;
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      min-width: 0;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+      min-width: 0;
+    }
 
     &-title {
       color: $text-primary;
@@ -86,7 +105,7 @@
     min-width: 178px;
 
     @media (max-width: 768px) {
-      margin-bottom: 5rem;
+      margin-bottom: 0;
       width: 80%;
     }
   }
@@ -94,6 +113,12 @@
   .news &__card-title {
     font-weight: $bold;
     font-size: $font-size-16;
+  }
+
+  .news &__card-date {
+    @media (max-width: 768px) {
+      margin: 1rem 0;
+    }
   }
 
   &__dropdown {

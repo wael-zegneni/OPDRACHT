@@ -1,8 +1,35 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "rubik";
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px; 
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  html {
+    font-size: 16px; 
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 11px; 
+  }
+}
+
+@media only screen and (min-width: 2559px) {
+  html {
+    font-size: 26px;
+  }
 }

@@ -1,7 +1,8 @@
 .services {
     background-color: $bg-purple;
-    padding-top: 5.625em;
+    padding-top: 5.625rem;
     @include option-link-styles;
+
 
     &__title {
         color: $text-primary;
@@ -9,6 +10,10 @@
         font-weight: $bold;
         margin-left: 5rem;
         margin-bottom: 5rem;
+
+        @media (max-width: 768px) {
+            margin-left: 1.2rem;
+        }
     }
 
     &__categories {
@@ -33,11 +38,12 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
+
     
         @media (max-width: 768px) {
-          width: 90%; 
+          width: 80%; 
           min-width: 0px;
-          margin: 2rem 3rem;
+          margin-bottom: 2rem;
         }
 
         &-list {
@@ -74,6 +80,10 @@
             font-weight: $regular;
             min-height: 6rem;
             width: 90%;
+
+            @media (max-width: 768px) {
+                min-height: 4rem;
+              }
         }
 
         &-divider {
