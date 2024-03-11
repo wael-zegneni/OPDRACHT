@@ -150,6 +150,9 @@ body {
       justify-content: space-between;
       gap: 10px;
       font-style: italic; }
+      @media (max-width: 768px) {
+        .header .nav__menu-text {
+          display: none; } }
 
 .footer__navigation {
   padding: 2.81rem 11.93rem;
